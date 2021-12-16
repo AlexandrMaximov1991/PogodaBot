@@ -1,3 +1,3 @@
-TOKEN = '5075129207:AAGdPhoNrYZ6rChuqAJmddw1Mx2n2XHBVas'
+TOKEN = 'Токен вашего бота'
 
-appid = 'f79c60a379414dfbfce274f093371c26'
+appid = 'Ваш API который можнополучить бесплатно на сайте http://openweathermap.org'
