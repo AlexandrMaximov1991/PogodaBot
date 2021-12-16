@@ -1,3 +1,3 @@
-TOKEN = 'Токен вашего бота'
+TOKEN = 'TOKEN вашего бота'
 
-appid = 'Ваш API который можнополучить бесплатно на сайте http://openweathermap.org'
+appid = 'Ваш API который можно получить бесплатно на сайте http://openweathermap.org'
