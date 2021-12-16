@@ -1,10 +1,8 @@
 import telebot
 import requests
 from config import TOKEN, appid
-from commands import ComandsBot
-bot = telebot.TeleBot(TOKEN)
 
-ComandsBot()
+bot = telebot.TeleBot(TOKEN)
 
 
 @bot.message_handler(commands=['help'])
@@ -18,8 +16,8 @@ def start(message: telebot.types.Message):
 def start(message: telebot.types.Message):
     text = f"Привет,этот бот сделан для того,\n" \
            f"чтобы ты всегда был одет по погоде.\n" \
-           f"Чтобы узнать как бот работает , нажми:/help." \
-           f""
+           f"Чтобы узнать как бот работает ,\n" \
+           f"нажми:/help."
     bot.reply_to(message, text)
 
 
